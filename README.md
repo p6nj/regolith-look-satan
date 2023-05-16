@@ -1,5 +1,5 @@
 # regolith-look Satan
-Satan theme for the Regolith desktop environment.  
+Satan theme for the Regolith desktop environment built from the Black Hole look.  
 
 You need the [Ubuntu-Mono-Dark-Red](https://www.gnome-look.org/p/1971791/) Gnome theme for icons and a satanic background to put at `/usr/share/backgrounds/regolith-satan.jpg`. For PNGs or other formats, you can edit the background picture path in the `root` file.  
 
