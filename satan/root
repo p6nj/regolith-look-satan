@@ -1,0 +1,105 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: satan
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file: /usr/share/backgrounds/regolith-satan.jpg
+regolith.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary: black
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper 
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file: /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
+regolith.lockscreen.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Ayu-Darker
+gtk.icon_theme_name: Ubuntu-Mono-Dark-Red
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name SauceCodePro Nerd Font Mono 11
+#define gtk_document_font_name Sans 10
+#define gtk_monospace_font_name SauceCodePro Nerd Font Mono 9
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! Blackhole colors
+#define color_base03 #000000
+#define color_black #000000
+#define color_base02 #070000
+#define color_base01 #ff0000
+#define color_base00 #ff0000
+#define color_base0 #aa0000
+#define color_base1 #aa0000
+#define color_base2 #ff0000
+#define color_base3 #ff0000
+#define color_yellow #ffd580
+#define color_orange #e6b450
+#define color_red #ff0000
+#define color_magenta #f28779
+#define color_violet #B48EAD
+#define color_blue #73d0ff
+#define color_cyan #95e6cb
+#define color_green #bae67e
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/blackhole/i3xrocks"
+#include "/usr/share/regolith-look/blackhole/i3-wm"
+#include "/usr/share/regolith-look/blackhole/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh
